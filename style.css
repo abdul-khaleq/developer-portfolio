@@ -64,8 +64,68 @@ h2{
     border-image: linear-gradient(blue, #ff01ea) 30;
     border-image-slice: 1;
 }
+
 footer p{
     text-align: center;
     text-shadow: 1px 1px #4bf00a;;
     font-weight: 800;
 }
+
+
+* {
+    box-sizing: border-box;
+  }
+/* For mobile phones: */
+@media only screen and (min-width: 600px) {
+    .mobile-screen-bg img{
+        display: none;
+    }
+}
+
+  @media only screen and (max-width: 599px) {
+      body{
+        
+      }
+      h1{
+          font-size: 25px;
+      }
+      h2{
+          font-size: 22px;
+      }
+      .mobile-screen-bg-hidden img{
+        display: block;
+
+    }
+    .mobile-screen-bg-hidden img{
+        display: none;
+    }
+    h1{
+        text-align: center;
+    }
+    .flesible-container{
+        display: block;
+        margin-bottom: 10px;
+    }
+    .half-width{
+        width: 100%;
+        padding: 5%;
+        text-align: center;
+    }
+    
+    .link-button{
+        text-align: center;
+    }
+    .experience-item{
+        width: 100%;
+        margin: 0;
+        border-radius: 10px;
+        box-shadow: 5px 5px 15px gray ;
+        text-align: center;
+        padding: 3%;
+    }
+    .experience-item h2{
+        
+        font-size: 20px;
+    }
+
+  }
