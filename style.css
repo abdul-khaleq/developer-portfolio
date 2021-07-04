@@ -53,5 +53,17 @@ h2{
     padding-left: 20px;
     border-radius: 10px;
     box-shadow: 10px 10px 30px gray ;
-
+}
+#web-dev-experience{
+    border-left: 5px solid;
+    border-image: linear-gradient(#f6b73c, #4d9f0c) 30;
+    border-image-slice: 1;
+}
+#stack-dev-experience{
+    border-left: 5px solid;
+    border-image: linear-gradient(blue, #ff01ea) 30;
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
